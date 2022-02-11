@@ -1065,6 +1065,35 @@ footer p{
         padding: 3%;
         margin-bottom: 5%;
     }
+    /* Clases Tarifas.html */
+    /* Titulo */
+    .titulo{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 35px;
+    }
+    /* Section Tarifas */
+    .sectionTarifas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    /* Alineacion Servicios */
+    .servicios{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    /* Alineacion Tarifa */
+    .tarifa{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 20px;
+        font-weight: 700;
+    }
     /* Clases Galeria */
     /* Titulo */
     .mainGaleria{
