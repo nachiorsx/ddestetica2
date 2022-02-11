@@ -1318,6 +1318,9 @@ footer p{
         margin-top: 1%;
         margin-bottom: 1%;
     }
+    .textoCentradoMobile{
+        text-align: center;
+    }
     /* Alineacion Redes Sociales */
     .alineacionRedes{
         margin-bottom: 1%;
