@@ -260,6 +260,7 @@ footer p{
     margin-top: 60%;
     margin-left: 4%;
 }
+/* Formulario */
 .alineacionSuscripcion{
     display: block;
     text-align: center;
@@ -464,7 +465,7 @@ footer p{
 /* Media Queries */
 /* Desktop */
 @media (min-width: 1024px) {
-    /* Box Model */
+/* Box Model */
 /* Estilos al Header */
     header{
         display: flex;
@@ -870,12 +871,12 @@ footer p{
     }
     /* Flex */
     /* Footer */
-        .ubicacion{
-            display: flex;
-            flex-direction: column;
-            width: 33%;
-            padding-top: 1%;
-        }
+    .ubicacion{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        padding-top: 1%;
+    }
     .ubicacionDatos{
         display: flex;
     }
@@ -1378,6 +1379,7 @@ footer p{
     .sectionGaleriaUno{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .sectionGaleriaDos{
         display: flex;
@@ -1397,6 +1399,7 @@ footer p{
     .sectionGaleriaCinco{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .sectionGaleriaSeis{
         display: flex;
