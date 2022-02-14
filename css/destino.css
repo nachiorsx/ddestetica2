@@ -227,178 +227,111 @@ main section section .bordeImagen {
 }
 
 /* Alineacion Buscador */
-.buscador {
+header section section .buscador {
   margin-top: 1%;
   margin-bottom: 5%;
   border-color: #fcaaf1;
 }
 
-/* Alineacion Imagen Izquierda */
-.alineacionImagenIzquierda {
-  margin-top: 10%;
-  margin-left: 5%;
-  border: solid 2px #5ed4f8;
+main section section {
+  /* Alineacion Botones Suscripcion */
 }
-
-/* Alineacion Parrafo Izquierdo */
-.alineacionParrafoIzquierdo {
-  margin-left: 5%;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-/* Alineacion Imagen Princiapal */
-.alineacionImagenPrincipal {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  border: solid 4px #5ed4f8;
-}
-
-/* Alineacion Imagen Derecha */
-.alineacionImagenDerecha {
-  margin-top: 10%;
-  margin-right: 5%;
-  border: solid 2px #5ed4f8;
-}
-
-/* Alineacion Parafo Derecho */
-.alineacionParrafoDerecho {
-  margin-right: 1%;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-/* Alineacion Suscripcion */
-.tituloSuscribirse {
-  margin-top: 60%;
-  margin-left: 4%;
-}
-
-/* Formulario */
-.alineacionSuscripcion {
-  display: block;
-  text-align: center;
-  margin-left: 20%;
-  margin-top: 1%;
-  border-color: #5ed4f8;
-}
-
-/* Alineacion Botones Suscripcion */
-.alineacionBotonSuscripcion {
+main section section .alineacionBotonSuscripcion {
   border-color: #5ed4f8;
   margin-top: 1%;
   padding: 0.5%;
 }
-
-.alineacionBotonBorrar {
+main section section .alineacionBotonBorrar {
   border-color: #5ed4f8;
   margin-left: 5%;
   margin-top: 2%;
   padding: 0.5%;
 }
 
-/* Mapa y Titulo */
-.ubicacionTitulo {
-  margin-left: 3%;
+footer section section {
+  /* Alineacion Redes Sociales */
+  /* Alineacion Facebook */
+  /* Alineacion Instagram */
+  /* Alineacion Email */
+  /* Alineacion Ir Arriba */
 }
-
-.mapa {
-  margin-left: 3%;
-  margin-top: 3%;
-  border-color: #fcaaf1;
-}
-
-/* Alineacion Redes Sociales */
-.alineacionRedes {
+footer section section .alineacionRedes {
   margin-bottom: 1%;
   padding-bottom: 1%;
   font-size: 20px;
 }
-
-/* Alineacion Facebook */
-.alineacionFacebook {
+footer section section .alineacionFacebook {
   margin-left: 25%;
   font-size: 18px;
 }
-
-/* Alineacion Instagram */
-.alineacionInstagram {
+footer section section .alineacionInstagram {
   margin-left: 24%;
   font-size: 18px;
 }
-
-/* Alineacion Email */
-.alineacionEmail {
+footer section section .alineacionEmail {
   margin-left: 37%;
   font-size: 18px;
 }
-
-/* Alineacion Ir Arriba */
-.irArriba {
+footer section section .irArriba {
   color: #b908ff;
 }
 
 /* Clases Contacto.html */
 /* Tamaño Título */
-.textoGrande {
+main section .textoGrande {
   font-size: 50px;
   margin-top: 0.5%;
 }
 
-/* Alineacion Formulario */
-.sectionFormularioUno {
+main {
+  /* Alineacion Formulario */
+}
+main .sectionFormularioUno {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* Alineacion Comentario */
+  /* Alineacion botones formulario */
 }
-
-.sectionFormularioDos {
-  width: 100%;
-}
-
-/* Alineacion Comentario */
-.alineacionFormulario {
+main .sectionFormularioUno .alineacionFormulario {
   margin-top: 5%;
   border-color: #5ed4f8;
   width: 100%;
 }
-
-/* Alineacion botones formulario */
-.alineacionEnviar {
+main .sectionFormularioUno .alineacionEnviar {
   border-color: #5ed4f8;
   padding: 3%;
   margin-top: 5%;
 }
-
-.alineacionBorrar {
+main .sectionFormularioUno .alineacionBorrar {
   border-color: #5ed4f8;
   padding: 3%;
+}
+main .sectionFormularioDos {
+  width: 100%;
 }
 
 /* Clases Tarifas.html */
 /* Titulo */
-.titulo {
+main .titulo {
   margin-top: 1%;
   font-size: 35px;
+  /* Section Tarifas */
 }
-
-/* Section Tarifas */
-.sectionTarifas {
+main .titulo .sectionTarifas {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* Alineacion Servicios */
 }
-
-/* Alineacion Servicios */
-.servicios {
+main .titulo .sectionTarifas .servicios {
   margin-top: 1%;
   margin-bottom: 1%;
   font-size: 20px;
   font-weight: 700;
+  /* Alineacion Tarifa */
 }
-
-/* Alineacion Tarifa */
-.tarifa {
+main .titulo .sectionTarifas .servicios .tarifa {
   margin-top: 1%;
   margin-bottom: 1%;
   font-size: 20px;
@@ -411,63 +344,55 @@ main section section .bordeImagen {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  /* Titulo */
+  /* Sections Galeria */
 }
-
-/* Sections Galeria */
-.sectionGaleriaUno {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.sectionGaleriaDos {
-  display: flex;
-  justify-content: center;
-}
-
-.sectionGaleriaTres {
-  display: flex;
-  justify-content: center;
-}
-
-.sectionGaleriaCuatro {
-  display: flex;
-  justify-content: center;
-}
-
-.sectionGaleriaCinco {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.sectionGaleriaSeis {
-  display: flex;
-  justify-content: center;
-}
-
-/* Titulo */
-.titulo {
+.mainGaleria .titulo {
   font-size: 50px;
+  /* Parrafo Imagenes */
+}
+.mainGaleria .titulo .parrafo {
+  font-size: 30px;
+  font-weight: 600;
+}
+.mainGaleria .sectionGaleriaUno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainGaleria .sectionGaleriaDos {
+  display: flex;
+  justify-content: center;
+}
+.mainGaleria .sectionGaleriaTres {
+  display: flex;
+  justify-content: center;
+}
+.mainGaleria .sectionGaleriaCuatro {
+  display: flex;
+  justify-content: center;
+}
+.mainGaleria .sectionGaleriaCinco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainGaleria .sectionGaleriaSeis {
+  display: flex;
+  justify-content: center;
 }
 
 /* Borde Imagenes */
-.borde {
+main section .borde {
   border: solid 3px #5ed4f8;
   margin-left: 3%;
   margin-top: 1%;
   margin-bottom: 0.5%;
 }
 
-/* Parrafo Imagenes */
-.parrafo {
-  font-size: 30px;
-  font-weight: 600;
-}
-
 /* Clases Servicios.html */
 /* Titulo Servicios */
-.tituloservicio {
+main .tituloservicio {
   text-align: center;
   font-size: 40px;
   font-weight: 800;
@@ -475,33 +400,28 @@ main section section .bordeImagen {
 }
 
 /* Servicio */
-.sectionServicios {
+main .sectionServicios {
   display: flex;
   justify-content: center;
 }
-
-.servicio {
+main .sectionServicios .articleServicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .sectionServicios .articleServicios .servicio {
   margin-left: 0.5%;
   margin-top: 1%;
   font-size: 30px;
+  /* Descripcion */
 }
-
-/* Descripcion */
-.descripcion {
+main .sectionServicios .articleServicios .servicio .descripcion {
   margin-left: 1%;
   margin-right: 1%;
   margin-top: 0.2%;
   font-size: 20px;
 }
-
-/* Imagen con resultado final */
-.articleServicios {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.imagen {
+main .sectionServicios .articleServicios .imagen {
   margin-top: 0.2%;
   margin-bottom: 1%;
   border: solid 3px #5ed4f8;
