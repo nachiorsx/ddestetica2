@@ -46,13 +46,11 @@ header {
   justify-content: space-between;
   background-color: #5ed4f8;
 }
-
-.sectionHeaderUno {
+header .sectionHeaderUno {
   text-align: center;
   align-self: center;
 }
-
-.sectionHeaderDos {
+header .sectionHeaderDos {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -60,16 +58,14 @@ header {
   padding-top: 0.5%;
   padding-right: 0.5%;
 }
-
-.sectionHeaderTres {
+header .sectionHeaderTres {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
   width: 60%;
   padding-bottom: 5%;
 }
-
-h1 {
+header h1 {
   color: #b908ff;
   font-size: 40px;
 }
@@ -80,27 +76,22 @@ nav {
   border-top: groove 2px black;
   border-bottom: groove 2px black;
 }
-
 nav section {
   display: flex;
   justify-content: flex-end;
   align-self: center;
 }
-
-span {
+nav section span {
   padding: 1%;
   font-size: 20px;
 }
-
-span a {
-  font-weight: 900;
-}
-
-span:hover {
+nav section span:hover {
   background-color: #5ed4f8;
 }
-
-span a:hover {
+nav section span a {
+  font-weight: 900;
+}
+nav section span a:hover {
   color: #f800d7;
 }
 
@@ -109,8 +100,7 @@ span a:hover {
   display: flex;
   justify-content: space-between;
 }
-
-.sectionMainUno {
+.mainIndex .sectionMainUno {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -118,8 +108,7 @@ span a:hover {
   margin-top: 1%;
   margin-left: 1%;
 }
-
-.suscribirse {
+.mainIndex section section .suscribirse {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -127,21 +116,18 @@ span a:hover {
   margin-left: 20%;
   padding: 1%;
 }
-
-section input {
+.mainIndex section section input {
   padding: 1%;
   margin: 1%;
 }
-
-.sectionMainDos {
+.mainIndex .sectionMainDos {
   display: flex;
   justify-content: center;
   margin-top: 2%;
   margin-bottom: 10%;
   height: 70%;
 }
-
-.sectionMainTres {
+.mainIndex .sectionMainTres {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -155,24 +141,25 @@ footer {
   justify-content: space-between;
   background-color: #5ed4f8;
 }
-
-footer h2 {
-  font-size: 25px;
-  color: #b908ff;
-}
-
-footer p {
-  font-size: 20px;
-  font-weight: 800;
-}
-
-.sectionFooterUno {
+footer .sectionFooterUno {
   margin-top: 1%;
   margin-left: 1%;
   width: 33%;
 }
-
-.sectionFooterDos {
+footer .sectionFooterUno h2 {
+  font-size: 25px;
+  color: #b908ff;
+}
+footer .sectionFooterUno h2 .tituloUbicacion {
+  text-align: center;
+  margin-left: 15%;
+}
+footer .sectionFooterUno iframe ul .alineacionDatos {
+  font-weight: 700;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+footer .sectionFooterDos {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -181,8 +168,11 @@ footer p {
   margin-top: 1%;
   margin-bottom: 1%;
 }
-
-.sectionFooterTres {
+footer .sectionFooterDos p {
+  font-size: 20px;
+  font-weight: 800;
+}
+footer .sectionFooterTres {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -191,17 +181,6 @@ footer p {
   margin-right: 1%;
   margin-top: 1%;
   margin-bottom: 1%;
-}
-
-.tituloUbicacion {
-  text-align: center;
-  margin-left: 15%;
-}
-
-.alineacionDatos {
-  font-weight: 700;
-  padding-top: 1%;
-  padding-bottom: 1%;
 }
 
 /* Clases */
@@ -228,23 +207,22 @@ footer p {
 
 /* Clases Index.html */
 /* Logo */
-.logo {
+header .logo {
   padding-top: 1%;
   padding-left: 1%;
   padding-bottom: 1%;
 }
-
-.logoImagen {
+header .logo .logoImagen {
   border: groove 2px #b908ff;
 }
 
 /* Alineacion Ir Abajo */
-.irAbajo {
+header section .irAbajo {
   color: #b908ff;
 }
 
 /* Borde Imagenes */
-.bordeImagen {
+main section section .bordeImagen {
   border: solid 2px #5ed4f8;
 }
 
