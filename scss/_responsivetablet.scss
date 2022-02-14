@@ -1,0 +1,244 @@
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1023px) {
+    body{
+        width: 100%;
+    }
+    .responsiveTablet{
+        display: none;
+    }
+    header {
+        display: flex;
+    }
+    .logoImagen{
+        border: solid 1px rgb(185, 8, 255);
+    }
+    h1{
+        color: rgb(185, 8, 255);
+        font-size: 40px;
+    }
+    /* Estilos al Nav */
+    nav{
+        background-color: rgb(205, 75, 245);
+        border-top:groove 2px black;
+        border-bottom:groove 2px black;
+    }
+    nav section{
+        display: flex;
+        margin-top: 0.2%;
+        align-items: center;
+    }
+    span{
+        padding: 1%;
+        font-size: 20px;
+    }
+    span a{
+        font-weight: 900;
+    }
+    /* Estilos al Main */
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sectionMainUno{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 1%;
+    }
+    .suscribirse{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+        padding: 1%;
+    }
+    section input{
+        padding: 0%;
+        margin: 0%;
+    }
+    .sectionMainDos{
+        display: flex;
+        justify-content: center;
+    }
+    .sectionMainTres{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tamañoImagen{
+        width: 80%;
+    }
+    .sectionMainUno{
+        order: 1;
+    }
+    /* Alineacion Imagen Izquierda */
+    .alineacionImagenIzquierda{
+        border: solid 2px rgb(94, 212, 248);
+    }
+    /* Alineacion Parrafo Izquierdo */
+    .alineacionParrafoIzquierdo{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    /* Alineacion Imagen Princiapal */
+        .alineacionImagenPrincipal{
+        border: solid 4px rgb(94, 212, 248);
+    }
+    /* Alineacion Imagen Derecha */
+        .alineacionImagenDerecha{
+        border: solid 2px rgb(94, 212, 248);
+    }
+    /* Alineacion Parafo Derecho */
+        .alineacionParrafoDerecho{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    /* Estilos al Footer */
+    footer{
+        display: flex;
+        background-color:rgb(94, 212, 248);
+    }
+    footer h2{
+        font-size: 25px;
+        color: rgb(185, 8, 255);
+    }
+    footer p{
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .tituloUbicacion{
+        margin-left: 0%;
+    }
+    .sectionFooterUno{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 33%
+    }
+    .sectionFooterDos{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+    }
+    .sectionFooterTres{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 33%;
+    }
+    .alineacionDatos{
+        font-weight: 700;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    /* Clases a Contacto.html */
+    .textoGrande{
+        font-size: 50px;
+        margin-top: 0.5%;
+    }
+    /* Alineacion Formulario */
+    .mainContacto{
+        display: flex
+    }
+    .sectionFormularioUno{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    /* Alineacion botones formulario */
+    .alineacionEnviar{
+        border-color: rgb(94, 212, 248);
+        padding: 3%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .alineacionBorrar{
+        border-color: rgb(94, 212, 248);
+        padding: 3%;
+        margin-bottom: 5%;
+    }
+    /* Clases Tarifas.html */
+    /* Titulo */
+    .titulo{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 35px;
+    }
+    /* Section Tarifas */
+    .sectionTarifas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    /* Alineacion Servicios */
+    .servicios{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    /* Alineacion Tarifa */
+    .tarifa{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    /* Clases Galeria */
+    /* Titulo */
+    .mainGaleria{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .sectionGaleriaUno{
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionGaleriaDos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionGaleriaTres{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionGaleriaCuatro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionGaleriaCinco{
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionGaleriaSeis{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        }
+    .titulo{
+        font-size: 50px;
+    }
+    /* Borde Imagenes */
+    .borde{
+        border: solid 3px rgb(94, 212, 248);
+        margin-top: 1%;
+        margin-bottom: 0.5%;
+        margin-left: 0%;
+        width: 95%
+    }
+    /* Parrafo Imagenes */
+    .parrafo{
+        font-size: 30px;
+        font-weight: 600;
+    }
+}

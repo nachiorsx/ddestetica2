@@ -1,0 +1,28 @@
+/* Grid Areas */
+.gridAreas{
+    display: grid;
+    grid-template-areas:
+    /* Fila 1 */    
+    "encabezado"
+    /* Fila 2 */
+    "menu"
+    /* Fila 3 */
+    "principal"
+    /* Fila 4 */
+    "pie";
+    grid-template-columns: 100%;
+}
+/* Nombre Areas */
+header{
+    grid-area: encabezado;
+}
+nav{
+    grid-area: menu;
+    text-align: end;
+}
+main{
+    grid-area: principal;
+}
+footer{
+    grid-area: pie;
+}

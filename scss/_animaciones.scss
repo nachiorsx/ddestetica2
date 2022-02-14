@@ -1,0 +1,29 @@
+/* Animaciones, Transformaciones y Transiciones */
+.animacionTitulo{
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+.animacionLogo{
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+/* KeyFrames */
+@keyframes titulo {
+    from { transform: translate(-2000px);
+        opacity: 0;
+    }
+    to { transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes logo {
+    from { transform: translate(2000px);
+        opacity: 0;
+    }
+    to { transform: translate(0);
+        opacity: 1;
+    }
+}
