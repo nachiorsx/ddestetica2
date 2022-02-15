@@ -25,13 +25,13 @@
             padding: 0%;
         }
         .logoImagen{
-            border: solid 1px rgb(185, 8, 255);
+            border: solid 1px $colorVioleta;
             width: 90%;
             margin-left: 5%;
             margin-top: 1%;
         }
         h1{
-            color: rgb(185, 8, 255);
+            color: $colorVioleta;
             font-size: 40px;
             margin-top: 5%;
             margin-bottom: 5%;
@@ -42,7 +42,7 @@
     }
     /* Estilos al Nav */
     nav{
-        background-color: rgb(205, 75, 245);
+        background-color: $colorNav;
         border-top:groove 2px black;
         border-bottom:groove 2px black;
         section{
@@ -102,11 +102,11 @@
     footer{
         display: flex;
         flex-direction: column;
-        background-color:rgb(94, 212, 248);
+        background-color: $colorCeleste;
         section{
             h2{
                 font-size: 25px;
-                color: rgb(185, 8, 255);
+                color: $colorVioleta;
             }
         }
         section{
@@ -202,13 +202,13 @@
             width: 80%;
             /* Alineacion botones formulario */
             .alineacionEnviar{
-                border-color: rgb(94, 212, 248);
+                border-color: $colorCeleste;
                 padding: 3%;
                 margin-top: 5%;
                 margin-bottom: 5%;
             }
             .alineacionBorrar{
-                border-color: rgb(94, 212, 248);
+                border-color: $colorCeleste;
                 padding: 3%;
                 margin-bottom: 5%;
             }
@@ -258,7 +258,7 @@
     }
     /* Borde Imagenes */
     .borde{
-        border: solid 3px rgb(94, 212, 248);
+        border: solid 3px $colorCeleste;
         margin-top: 1%;
         margin-bottom: 0.5%;
         margin-left: 0%;
@@ -288,7 +288,7 @@
                     margin-top: 0.2%;
                     margin-bottom: 1%;
                     margin-left: 0%;
-                    border: solid 3px rgb(94, 212, 248);
+                    border: solid 3px $colorCeleste;
                 }
             }
         }
