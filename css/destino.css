@@ -32,11 +32,15 @@ footer {
   grid-area: pie;
 }
 
-/* Box Model */
-/* Estilos al Body */
+/* Tipografia */
 body {
   font-family: "Lato", sans-serif;
   /* Light 300 italic */
+}
+
+/* Box Model */
+/* Estilos al Body */
+body {
   background-color: #fcaaf1;
 }
 
@@ -50,7 +54,12 @@ header .sectionHeaderUno {
   text-align: center;
   align-self: center;
 }
-header .sectionHeaderDos {
+header .sectionHeaderUno h1 {
+  color: #b908ff;
+  font-size: 40px;
+}
+
+.sectionHeaderDos {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -58,16 +67,12 @@ header .sectionHeaderDos {
   padding-top: 0.5%;
   padding-right: 0.5%;
 }
-header .sectionHeaderTres {
+.sectionHeaderDos .sectionHeaderTres {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
   width: 60%;
   padding-bottom: 5%;
-}
-header h1 {
-  color: #b908ff;
-  font-size: 40px;
 }
 
 /* Estilos al Nav */
@@ -100,7 +105,8 @@ nav section span a:hover {
   display: flex;
   justify-content: space-between;
 }
-.mainIndex .sectionMainUno {
+
+.sectionMainUno {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -108,7 +114,8 @@ nav section span a:hover {
   margin-top: 1%;
   margin-left: 1%;
 }
-.mainIndex section section .suscribirse {
+
+.suscribirse {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -116,18 +123,21 @@ nav section span a:hover {
   margin-left: 20%;
   padding: 1%;
 }
-.mainIndex section section input {
+
+section input {
   padding: 1%;
   margin: 1%;
 }
-.mainIndex .sectionMainDos {
+
+.sectionMainDos {
   display: flex;
   justify-content: center;
   margin-top: 2%;
   margin-bottom: 10%;
   height: 70%;
 }
-.mainIndex .sectionMainTres {
+
+.sectionMainTres {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -141,25 +151,26 @@ footer {
   justify-content: space-between;
   background-color: #5ed4f8;
 }
-footer .sectionFooterUno {
+footer section h2 {
+  font-size: 25px;
+  color: #b908ff;
+}
+footer section p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.sectionFooterUno {
   margin-top: 1%;
   margin-left: 1%;
   width: 33%;
 }
-footer .sectionFooterUno h2 {
-  font-size: 25px;
-  color: #b908ff;
-}
-footer .sectionFooterUno h2 .tituloUbicacion {
+.sectionFooterUno .tituloUbicacion {
   text-align: center;
   margin-left: 15%;
 }
-footer .sectionFooterUno iframe ul .alineacionDatos {
-  font-weight: 700;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-footer .sectionFooterDos {
+
+.sectionFooterDos {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -168,11 +179,8 @@ footer .sectionFooterDos {
   margin-top: 1%;
   margin-bottom: 1%;
 }
-footer .sectionFooterDos p {
-  font-size: 20px;
-  font-weight: 800;
-}
-footer .sectionFooterTres {
+
+.sectionFooterTres {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -181,6 +189,12 @@ footer .sectionFooterTres {
   margin-right: 1%;
   margin-top: 1%;
   margin-bottom: 1%;
+}
+
+.alineacionDatos {
+  font-weight: 700;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 /* Clases */
@@ -207,12 +221,12 @@ footer .sectionFooterTres {
 
 /* Clases Index.html */
 /* Logo */
-header .logo {
+.logo {
   padding-top: 1%;
   padding-left: 1%;
   padding-bottom: 1%;
 }
-header .logo .logoImagen {
+.logo .logoImagen {
   border: groove 2px #b908ff;
 }
 
@@ -222,7 +236,7 @@ header section .irAbajo {
 }
 
 /* Borde Imagenes */
-main section section .bordeImagen {
+.bordeImagen {
   border: solid 2px #5ed4f8;
 }
 
@@ -233,105 +247,136 @@ header section section .buscador {
   border-color: #fcaaf1;
 }
 
-main section section {
-  /* Alineacion Botones Suscripcion */
+/* Alineacion Suscripcion */
+.tituloSuscribirse {
+  margin-top: 60%;
+  margin-left: 4%;
 }
-main section section .alineacionBotonSuscripcion {
+
+/* Formulario */
+.alineacionSuscripcion {
+  display: block;
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 1%;
+  border-color: #5ed4f8;
+}
+
+/* Alineacion Botones Suscripcion */
+.alineacionBotonSuscripcion {
   border-color: #5ed4f8;
   margin-top: 1%;
   padding: 0.5%;
 }
-main section section .alineacionBotonBorrar {
+
+.alineacionBotonBorrar {
   border-color: #5ed4f8;
   margin-left: 5%;
   margin-top: 2%;
   padding: 0.5%;
 }
 
-footer section section {
-  /* Alineacion Redes Sociales */
-  /* Alineacion Facebook */
-  /* Alineacion Instagram */
-  /* Alineacion Email */
-  /* Alineacion Ir Arriba */
+/* Mapa y Titulo */
+.ubicacionTitulo {
+  margin-left: 3%;
 }
-footer section section .alineacionRedes {
+
+.mapa {
+  margin-left: 3%;
+  margin-top: 3%;
+  border-color: #fcaaf1;
+}
+
+/* Alineacion Redes Sociales */
+.alineacionRedes {
   margin-bottom: 1%;
   padding-bottom: 1%;
   font-size: 20px;
 }
-footer section section .alineacionFacebook {
+
+/* Alineacion Facebook */
+.alineacionFacebook {
   margin-left: 25%;
   font-size: 18px;
 }
-footer section section .alineacionInstagram {
+
+/* Alineacion Instagram */
+.alineacionInstagram {
   margin-left: 24%;
   font-size: 18px;
 }
-footer section section .alineacionEmail {
+
+/* Alineacion Email */
+.alineacionEmail {
   margin-left: 37%;
   font-size: 18px;
 }
-footer section section .irArriba {
+
+/* Alineacion Ir Arriba */
+.irArriba {
   color: #b908ff;
 }
 
 /* Clases Contacto.html */
 /* Tamaño Título */
-main section .textoGrande {
+.textoGrande {
   font-size: 50px;
   margin-top: 0.5%;
 }
 
-main {
-  /* Alineacion Formulario */
-}
-main .sectionFormularioUno {
+/* Alineacion Formulario */
+.sectionFormularioUno {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Alineacion Comentario */
-  /* Alineacion botones formulario */
 }
-main .sectionFormularioUno .alineacionFormulario {
+
+.sectionFormularioDos {
+  width: 100%;
+}
+
+/* Alineacion Comentario */
+.alineacionFormulario {
   margin-top: 5%;
   border-color: #5ed4f8;
   width: 100%;
 }
-main .sectionFormularioUno .alineacionEnviar {
+
+/* Alineacion botones formulario */
+.alineacionEnviar {
   border-color: #5ed4f8;
   padding: 3%;
   margin-top: 5%;
 }
-main .sectionFormularioUno .alineacionBorrar {
+
+.alineacionBorrar {
   border-color: #5ed4f8;
   padding: 3%;
-}
-main .sectionFormularioDos {
-  width: 100%;
 }
 
 /* Clases Tarifas.html */
 /* Titulo */
-main .titulo {
+.titulo {
   margin-top: 1%;
   font-size: 35px;
   /* Section Tarifas */
 }
-main .titulo .sectionTarifas {
+
+.sectionTarifas {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Alineacion Servicios */
 }
-main .titulo .sectionTarifas .servicios {
+
+/* Alineacion Servicios */
+.servicios {
   margin-top: 1%;
   margin-bottom: 1%;
   font-size: 20px;
   font-weight: 700;
   /* Alineacion Tarifa */
 }
-main .titulo .sectionTarifas .servicios .tarifa {
+.servicios .tarifa {
   margin-top: 1%;
   margin-bottom: 1%;
   font-size: 20px;
@@ -349,11 +394,6 @@ main .titulo .sectionTarifas .servicios .tarifa {
 }
 .mainGaleria .titulo {
   font-size: 50px;
-  /* Parrafo Imagenes */
-}
-.mainGaleria .titulo .parrafo {
-  font-size: 30px;
-  font-weight: 600;
 }
 .mainGaleria .sectionGaleriaUno {
   display: flex;
@@ -383,11 +423,17 @@ main .titulo .sectionTarifas .servicios .tarifa {
 }
 
 /* Borde Imagenes */
-main section .borde {
+.borde {
   border: solid 3px #5ed4f8;
   margin-left: 3%;
   margin-top: 1%;
   margin-bottom: 0.5%;
+}
+
+/* Parrafo Imagenes */
+.parrafo {
+  font-size: 30px;
+  font-weight: 600;
 }
 
 /* Clases Servicios.html */
@@ -400,28 +446,29 @@ main .tituloservicio {
 }
 
 /* Servicio */
-main .sectionServicios {
+.sectionServicios {
   display: flex;
   justify-content: center;
+  /* Imagen con resultado final */
 }
-main .sectionServicios .articleServicios {
+.sectionServicios .articleServicios {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .sectionServicios .articleServicios .servicio {
+.sectionServicios .articleServicios .servicio {
   margin-left: 0.5%;
   margin-top: 1%;
   font-size: 30px;
   /* Descripcion */
 }
-main .sectionServicios .articleServicios .servicio .descripcion {
+.sectionServicios .articleServicios .servicio .descripcion {
   margin-left: 1%;
   margin-right: 1%;
   margin-top: 0.2%;
   font-size: 20px;
 }
-main .sectionServicios .articleServicios .imagen {
+.sectionServicios .articleServicios .imagen {
   margin-top: 0.2%;
   margin-bottom: 1%;
   border: solid 3px #5ed4f8;
@@ -1581,11 +1628,6 @@ main .sectionServicios .articleServicios .imagen {
     border: solid 3px #5ed4f8;
   }
 }
-body {
-  font-family: "Lato", sans-serif;
-  /* Light 300 italic */
-}
-
 /* Animaciones, Transformaciones y Transiciones */
 .animacionTitulo {
   animation-name: titulo;
