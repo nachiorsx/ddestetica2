@@ -1095,27 +1095,24 @@ main .tituloservicio {
     flex-wrap: wrap;
     flex-direction: column;
   }
-
-  .logo {
+  header .logo {
     padding: 0%;
   }
-
-  .logoImagen {
+  header .logoImagen {
     border: solid 1px #b908ff;
     width: 90%;
     margin-left: 5%;
     margin-top: 1%;
   }
-
-  .responsiveMobile {
-    display: none;
-  }
-
-  h1 {
+  header h1 {
     color: #b908ff;
     font-size: 40px;
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+
+  .responsiveMobile {
+    display: none;
   }
 
   /* Estilos al Nav */
@@ -1124,20 +1121,17 @@ main .tituloservicio {
     border-top: groove 2px black;
     border-bottom: groove 2px black;
   }
-
   nav section {
     display: flex;
     flex-direction: column;
     margin-top: 0.2%;
     align-items: center;
   }
-
-  span {
+  nav section span {
     padding: 1%;
     font-size: 20px;
   }
-
-  span a {
+  nav section span a {
     font-weight: 900;
   }
 
@@ -1148,12 +1142,23 @@ main .tituloservicio {
     justify-content: center;
     align-items: center;
   }
-
-  .sectionMainUno {
+  main .sectionMainUno {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 1%;
+  }
+  main .sectionMainDos {
+    display: flex;
+    justify-content: center;
+  }
+  main .sectionMainDos .tamañoImagen {
+    width: 80%;
+  }
+  main .sectionMainTres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .suscribirse {
@@ -1169,50 +1174,8 @@ main .tituloservicio {
     margin: 0%;
   }
 
-  .sectionMainDos {
-    display: flex;
-    justify-content: center;
-  }
-
-  .sectionMainTres {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .tamañoImagen {
-    width: 80%;
-  }
-
   .sectionMainUno {
     order: 1;
-  }
-
-  /* Alineacion Imagen Izquierda */
-  .alineacionImagenIzquierda {
-    border: solid 2px #5ed4f8;
-  }
-
-  /* Alineacion Parrafo Izquierdo */
-  .alineacionParrafoIzquierdo {
-    font-size: 18px;
-    font-weight: 600;
-  }
-
-  /* Alineacion Imagen Princiapal */
-  .alineacionImagenPrincipal {
-    border: solid 4px #5ed4f8;
-  }
-
-  /* Alineacion Imagen Derecha */
-  .alineacionImagenDerecha {
-    border: solid 2px #5ed4f8;
-  }
-
-  /* Alineacion Parafo Derecho */
-  .alineacionParrafoDerecho {
-    font-size: 18px;
-    font-weight: 600;
   }
 
   /* Estilos al Footer */
@@ -1221,22 +1184,16 @@ main .tituloservicio {
     flex-direction: column;
     background-color: #5ed4f8;
   }
-
-  footer h2 {
+  footer section h2 {
     font-size: 25px;
     color: #b908ff;
   }
-
-  footer p {
+  footer section p {
     font-size: 20px;
     font-weight: 800;
   }
 
-  .tituloUbicacion {
-    margin-left: 0%;
-  }
-
-  .sectionFooterUno {
+  footer .sectionFooterUno {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1244,8 +1201,10 @@ main .tituloservicio {
     width: 100%;
     margin: 0%;
   }
-
-  .sectionFooterDos {
+  footer h2 .tituloUbicacion {
+    margin-left: 0%;
+  }
+  footer .sectionFooterDos {
     display: flex;
     flex-direction: column;
     margin-top: 3%;
@@ -1253,8 +1212,7 @@ main .tituloservicio {
     width: 100%;
     order: 1;
   }
-
-  .sectionFooterTres {
+  footer .sectionFooterTres {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1273,57 +1231,52 @@ main .tituloservicio {
     text-align: center;
   }
 
-  /* Alineacion Redes Sociales */
-  .alineacionRedes {
+  footer section section .alineacionRedes {
+    /* Alineacion Redes Sociales */
     margin-bottom: 1%;
     padding-bottom: 1%;
     font-size: 20px;
   }
-
-  /* Alineacion Facebook */
-  .alineacionFacebook {
+  footer section section .alineacionFacebook {
+    /* Alineacion Facebook */
     margin-left: 19%;
     font-size: 18px;
   }
-
-  /* Alineacion Instagram */
-  .alineacionInstagram {
+  footer section section .alineacionInstagram {
+    /* Alineacion Instagram */
     margin-left: 18%;
     font-size: 18px;
   }
-
-  /* Alineacion Email */
-  .alineacionEmail {
+  footer section section .alineacionEmail {
+    /* Alineacion Email */
     margin-left: 29%;
     font-size: 18px;
   }
 
   /* Clases a Contacto.html */
-  .textoGrande {
-    font-size: 50px;
-    margin-top: 0.5%;
-  }
-
   /* Alineacion Formulario */
   .mainContacto {
     display: flex;
   }
 
-  .sectionFormularioUno {
+  main section .textoGrande {
+    font-size: 50px;
+    margin-top: 0.5%;
+  }
+
+  main .sectionFormularioUno {
     display: flex;
     flex-direction: column;
     width: 80%;
+    /* Alineacion botones formulario */
   }
-
-  /* Alineacion botones formulario */
-  .alineacionEnviar {
+  main .sectionFormularioUno .alineacionEnviar {
     border-color: #5ed4f8;
     padding: 3%;
     margin-top: 5%;
     margin-bottom: 5%;
   }
-
-  .alineacionBorrar {
+  main .sectionFormularioUno .alineacionBorrar {
     border-color: #5ed4f8;
     padding: 3%;
     margin-bottom: 5%;
@@ -1336,44 +1289,38 @@ main .tituloservicio {
     flex-direction: column;
     align-content: center;
   }
-
-  .sectionGaleriaUno {
+  .mainGaleria .sectionGaleriaUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainGaleria .sectionGaleriaDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainGaleria .sectionGaleriaTres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainGaleria .sectionGaleriaCuatro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainGaleria .sectionGaleriaCinco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainGaleria .sectionGaleriaSeis {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .sectionGaleriaDos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .sectionGaleriaTres {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .sectionGaleriaCuatro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .sectionGaleriaCinco {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .sectionGaleriaSeis {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .titulo {
+  main .titulo {
     font-size: 50px;
   }
 
@@ -1393,34 +1340,32 @@ main .tituloservicio {
   }
 
   /* Clases Servicios */
-  .articleServicios {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  /* Titulo Servicios */
-  .tituloservicio {
+  main .tituloservicio {
+    /* Titulo Servicios */
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-top: 1%;
   }
-
-  /* Descripcion */
-  .descripcion {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 0.2%;
-    font-size: 20px;
+  main section .articleServicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Imagen con resultado final */
   }
-
-  /* Imagen con resultado final */
-  .imagen {
+  main section .articleServicios .imagen {
     margin-top: 0.2%;
     margin-bottom: 1%;
     margin-left: 0%;
     border: solid 3px #5ed4f8;
+  }
+
+  /* Descripcion */
+  article h2 .descripcion {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0.2%;
+    font-size: 20px;
   }
 }
 /* Animaciones, Transformaciones y Transiciones */
