@@ -165,7 +165,8 @@ footer section p {
   margin-left: 1%;
   width: 33%;
 }
-.sectionFooterUno .tituloUbicacion {
+
+.tituloUbicacion {
   text-align: center;
   margin-left: 15%;
 }
@@ -247,44 +248,17 @@ header section section .buscador {
   border-color: #fcaaf1;
 }
 
-/* Alineacion Suscripcion */
-.tituloSuscribirse {
-  margin-top: 60%;
-  margin-left: 4%;
-}
-
-/* Formulario */
-.alineacionSuscripcion {
-  display: block;
-  text-align: center;
-  margin-left: 20%;
-  margin-top: 1%;
-  border-color: #5ed4f8;
-}
-
 /* Alineacion Botones Suscripcion */
-.alineacionBotonSuscripcion {
+main section section .alineacionBotonSuscripcion {
   border-color: #5ed4f8;
   margin-top: 1%;
   padding: 0.5%;
 }
-
-.alineacionBotonBorrar {
+main section section .alineacionBotonBorrar {
   border-color: #5ed4f8;
   margin-left: 5%;
   margin-top: 2%;
   padding: 0.5%;
-}
-
-/* Mapa y Titulo */
-.ubicacionTitulo {
-  margin-left: 3%;
-}
-
-.mapa {
-  margin-left: 3%;
-  margin-top: 3%;
-  border-color: #fcaaf1;
 }
 
 /* Alineacion Redes Sociales */
@@ -319,39 +293,34 @@ header section section .buscador {
 
 /* Clases Contacto.html */
 /* Tamaño Título */
-.textoGrande {
-  font-size: 50px;
-  margin-top: 0.5%;
-}
-
 /* Alineacion Formulario */
-.sectionFormularioUno {
+main .sectionFormularioUno {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* Alineacion Comentario */
+  /* Alineacion botones formulario */
 }
-
-.sectionFormularioDos {
-  width: 100%;
-}
-
-/* Alineacion Comentario */
-.alineacionFormulario {
+main .sectionFormularioUno .alineacionFormulario {
   margin-top: 5%;
   border-color: #5ed4f8;
   width: 100%;
 }
-
-/* Alineacion botones formulario */
-.alineacionEnviar {
+main .sectionFormularioUno .alineacionEnviar {
   border-color: #5ed4f8;
   padding: 3%;
   margin-top: 5%;
 }
-
-.alineacionBorrar {
+main .sectionFormularioUno .alineacionBorrar {
   border-color: #5ed4f8;
   padding: 3%;
+}
+main .sectionFormularioDos {
+  width: 100%;
+}
+main .sectionFormularioDos .textoGrande {
+  font-size: 50px;
+  margin-top: 0.5%;
 }
 
 /* Clases Tarifas.html */
