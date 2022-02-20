@@ -86,8 +86,7 @@
         }
         section{
             p{
-                font-size: 20px;
-                font-weight: 800;
+                @include fonts (20px, 800);
                 text-align: center;
             }
         }
@@ -173,14 +172,12 @@
             .servicios{
                 margin-top: 3%;
                 margin-bottom: 3%;
-                font-size: 20px;
-                font-weight: 700;
+                @include fonts (20px, 700);
                 /* Alineacion Tarifa */
                 .tarifa{
                     margin-top: 5%;
                     margin-bottom: 5%;
-                    font-size: 20px;
-                    font-weight: 700;
+                    @include fonts (20px, 700);
                 }
             }
         }
@@ -233,7 +230,6 @@
     }
     /* Parrafo Imagenes */
     .parrafo{
-        font-size: 30px;
-        font-weight: 600;
+        @include fonts (30px, 600);
     }
 }

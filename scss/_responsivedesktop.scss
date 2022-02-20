@@ -105,8 +105,7 @@
                 color: $colorVioleta;
             }
             p{
-                font-size: 20px;
-                font-weight: 800;
+                @include fonts (20px, 800);
             }
         }
         
@@ -296,14 +295,12 @@
                 .servicios{
                     margin-top: 1%;
                     margin-bottom: 1%;
-                    font-size: 20px;
-                    font-weight: 700;
+                    @include fonts (20px, 700);
                     /* Alineacion Tarifa */
                     .tarifa{
                         margin-top: 1%;
                         margin-bottom: 1%;
-                        font-size: 20px;
-                        font-weight: 700;
+                        @include fonts (20px, 700);
                     }
                 }
             }
@@ -353,16 +350,14 @@
         }
         /* Parrafo Imagenes */
         .parrafo{
-            font-size: 30px;
-            font-weight: 600;
+            @include fonts (30px, 600);
         }
         /* Clases Servicios */
         /* Titulo Servicios */
         main{
             .tituloservicio{
                 text-align: center;
-                font-size: 40px;
-                font-weight: 800;
+                @include fonts (40px, 800);
                 margin-top: 1%;
             }
         }

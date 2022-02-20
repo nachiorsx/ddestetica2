@@ -38,6 +38,7 @@ body {
   /* Light 300 italic */
 }
 
+/* Mixin */
 /* Box Model */
 /* Estilos al Body */
 body {
@@ -208,6 +209,10 @@ footer section p {
 /* Texto Justificado */
 .textoJustificado {
   text-align: justify;
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 /* Texto Derecha */

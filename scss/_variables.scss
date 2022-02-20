@@ -3,3 +3,10 @@ $colorCeleste: rgb(94, 212, 248);
 $colorVioleta: rgb(185, 8, 255);
 $colorNav: rgb(205, 75, 245);
 $colorSpana: rgb(248, 0, 215);
+
+/* Mixin */
+@mixin fonts ($tamanio, $peso) {
+    font-size: $tamanio;
+    font-weight: $peso;
+    
+}

@@ -110,8 +110,7 @@ footer{
     }
     section{
         p{
-            font-size: 20px;
-            font-weight: 800;
+            @include fonts (20px, 800);
         }
     }
 }
@@ -157,6 +156,9 @@ footer{
 /* Texto Justificado */
 .textoJustificado{
     text-align: justify;
+    @include fonts (23px, 500);
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 /* Texto Derecha */
 .textoDerecha{
@@ -293,14 +295,12 @@ main{
 .servicios{
     margin-top: 1%;
     margin-bottom: 1%;
-    font-size: 20px;
-    font-weight: 700;
+    @include fonts (20px, 700);
     /* Alineacion Tarifa */
     .tarifa{
         margin-top: 1%;
         margin-bottom: 1%;
-        font-size: 20px;
-        font-weight: 700;
+        @include fonts (20px, 700);
     }
 }
 /* Clases Galeria.html */
@@ -350,16 +350,14 @@ main{
 }
 /* Parrafo Imagenes */
 .parrafo{
-    font-size: 30px;
-    font-weight: 600;
+    @include fonts (30px, 600);
 }
 /* Clases Servicios.html */
 /* Titulo Servicios */
 main{
     .tituloservicio{
         text-align: center;
-        font-size: 40px;
-        font-weight: 800;
+        @include fonts (40px, 800);
         margin-top: 1%;
     }
 }
@@ -379,9 +377,9 @@ main{
             /* Descripcion */
             .descripcion{
                 margin-left: 1%;
-            margin-right: 1%;
-            margin-top: 0.2%;
-            font-size: 20px;
+                margin-right: 1%;
+                margin-top: 0.2%;
+                font-size: 20px;
             }
         }
         .imagen{

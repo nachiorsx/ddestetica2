@@ -111,8 +111,7 @@
         }
         section{
             p{
-                font-size: 20px;
-                font-weight: 800;
+                @include fonts (20px, 800);
             }
         }
     }
@@ -266,16 +265,14 @@
     }
     /* Parrafo Imagenes */
     .parrafo{
-        font-size: 30px;
-        font-weight: 600;
+        @include fonts (30px, 600);
     }
     /* Clases Servicios */
     main{
         .tituloservicio{
             /* Titulo Servicios */
             text-align: center;
-            font-size: 40px;
-            font-weight: 800;
+            @include fonts (40px, 800);
             margin-top: 1%;
         }
         section{
