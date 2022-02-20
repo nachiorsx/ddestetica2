@@ -234,13 +234,13 @@ main{
 }
 /* Alineacion Instagram */
 .alineacionInstagram{
+    @extend .alineacionFacebook;
     margin-left: 24%;
-    font-size: 18px;
 }
 /* Alineacion Email */
 .alineacionEmail{
+    @extend .alineacionFacebook;
     margin-left: 37%;
-    font-size: 18px;
 }
 /* Alineacion Ir Arriba */
 .irArriba{

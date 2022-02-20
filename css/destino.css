@@ -39,6 +39,7 @@ body {
 }
 
 /* Mixin */
+/* Maps */
 /* Box Model */
 /* Estilos al Body */
 body {
@@ -274,7 +275,7 @@ main section section .alineacionBotonBorrar {
 }
 
 /* Alineacion Facebook */
-.alineacionFacebook {
+.alineacionFacebook, .alineacionEmail, .alineacionInstagram {
   margin-left: 25%;
   font-size: 18px;
 }
@@ -282,13 +283,11 @@ main section section .alineacionBotonBorrar {
 /* Alineacion Instagram */
 .alineacionInstagram {
   margin-left: 24%;
-  font-size: 18px;
 }
 
 /* Alineacion Email */
 .alineacionEmail {
   margin-left: 37%;
-  font-size: 18px;
 }
 
 /* Alineacion Ir Arriba */
@@ -672,7 +671,7 @@ main .tituloservicio {
     padding-bottom: 1%;
     font-size: 20px;
   }
-  footer section section .alineacionFacebook {
+  footer section section .alineacionFacebook, footer section section .alineacionInstagram, footer section section .alineacionEmail {
     /* Alineacion Facebook */
     margin-left: 25%;
     font-size: 18px;
@@ -1242,7 +1241,7 @@ main .tituloservicio {
     padding-bottom: 1%;
     font-size: 20px;
   }
-  footer section section .alineacionFacebook {
+  footer section section .alineacionFacebook, footer section section .alineacionInstagram, footer section section .alineacionEmail {
     /* Alineacion Facebook */
     margin-left: 19%;
     font-size: 18px;
