@@ -11,15 +11,15 @@
         display: flex;
     }
     .logoImagen{
-        border: solid 1px $colorVioleta;
+        border: solid 1px map-get($map: $colores, $key: $colorVioleta);
     }
     h1{
-        color: $colorVioleta;
+        color: map-get($map: $colores, $key: $colorVioleta);
         font-size: 40px;
     }
     /* Estilos al Nav */
     nav{
-        background-color: $colorNav;
+        background-color: map-get($map: $colores, $key: $colorNav);
         border-top:groove 2px black;
         border-bottom:groove 2px black;
         section{
@@ -77,11 +77,11 @@
     /* Estilos al Footer */
     footer{
         display: flex;
-        background-color: $colorCeleste;
+        background-color: map-get($map: $colores, $key: $colorCeleste);
         section{
             h2{
                 font-size: 25px;
-                color: $colorVioleta;
+                color: map-get($map: $colores, $key: $colorVioleta);
             }
         }
         section{
@@ -141,13 +141,13 @@
             width: 80%;
             /* Alineacion botones formulario */
             .alineacionEnviar{
-                border-color: $colorCeleste;
+                border-color: map-get($map: $colores, $key: $colorCeleste);
                 padding: 3%;
                 margin-top: 5%;
                 margin-bottom: 5%;
             }
             .alineacionBorrar{
-                border-color: $colorCeleste;
+                border-color: map-get($map: $colores, $key: $colorCeleste);
                 padding: 3%;
                 margin-bottom: 5%;
             }
@@ -222,7 +222,7 @@
     }
     /* Borde Imagenes */
     .borde{
-        border: solid 3px $colorCeleste;
+        border: solid 3px map-get($map: $colores, $key: $colorCeleste);
         margin-top: 1%;
         margin-bottom: 0.5%;
         margin-left: 0%;

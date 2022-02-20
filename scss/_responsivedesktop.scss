@@ -6,12 +6,12 @@
         header{
             display: flex;
             justify-content: space-between;
-            background-color: $colorCeleste;
+            background-color: map-get($map: $colores, $key: $colorCeleste);
             .sectionHeaderUno{
                 text-align: center;
                 align-self: center;
                 h1{
-                    color: $colorVioleta;
+                    color: map-get($map: $colores, $key: $colorVioleta);
                     font-size: 40px;
                 }
             }
@@ -34,7 +34,7 @@
         }
         /* Estilos al Nav */
         nav{
-            background-color: $colorNav;
+            background-color: map-get($map: $colores, $key: $colorNav);
             border-top:groove 2px black;
             border-bottom:groove 2px black;
             section{
@@ -45,12 +45,12 @@
                     padding: 1%;
                     font-size: 20px;
                     &:hover{
-                        background-color: $colorCeleste;
+                        background-color: map-get($map: $colores, $key: $colorCeleste);
                     }
                     a{
                         font-weight: 900;
                         &:hover{
-                            color: $colorSpana;
+                            color: map-get($map: $colores, $key: $colorSpana);
                         }
                     }
                 }
@@ -99,10 +99,10 @@
         footer{
             display: flex;
             justify-content: space-between;
-            background-color:$colorCeleste;
+            background-color: map-get($map: $colores, $key: $colorCeleste);
             h2{
                 font-size: 25px;
-                color: $colorVioleta;
+                color: map-get($map: $colores, $key: $colorVioleta);
             }
             p{
                 @include fonts (20px, 800);
@@ -167,20 +167,20 @@
             padding-left: 1%;
             padding-bottom: 1%;
             .logoImagen{
-                border: groove 2px $colorVioleta;
+                border: groove 2px map-get($map: $colores, $key: $colorVioleta);
             }
         }
         /* Alineacion Ir Abajo */
         header{
             section{
                 .irAbajo{
-                    color: $colorVioleta;
+                    color: map-get($map: $colores, $key: $colorVioleta);
                 }
             }
         }
         /* Borde Imagenes */
         .bordeImagen{
-            border: solid 2px $colorCeleste;
+            border: solid 2px map-get($map: $colores, $key: $colorCeleste);
         }
         /* Alineacion Buscador */
         header{
@@ -189,7 +189,7 @@
                     .buscador{
                         margin-top: 1%;
                         margin-bottom: 5%;
-                        border-color: $colorRosa;
+                        border-color: map-get($map: $colores, $key: $colorRosa);
                     }
                 }
             }
@@ -199,12 +199,12 @@
             section{
                 section{
                     .alineacionBotonSuscripcion{
-                        border-color: $colorCeleste;
+                        border-color: map-get($map: $colores, $key: $colorCeleste);
                         margin-top: 1%;
                         padding: 0.5%
                     }
                     .alineacionBotonBorrar{
-                        border-color: $colorCeleste;
+                        border-color: map-get($map: $colores, $key: $colorCeleste);
                         margin-left: 5%;
                         margin-top: 2%;
                         padding: 0.5%;
@@ -244,7 +244,7 @@
             section{
                 section{
                     .irArriba{
-                        color: $colorVioleta;
+                        color: map-get($map: $colores, $key: $colorVioleta);
                     }
                 }
             }
@@ -259,17 +259,17 @@
                 /* Alineacion Comentario */
                 .alineacionFormulario{
                     margin-top: 5%;
-                    border-color: $colorCeleste;
+                    border-color: map-get($map: $colores, $key: $colorCeleste);
                     width: 100%;
                 }
                 /* Alineacion botones formulario */
                 .alineacionEnviar{
-                    border-color: $colorCeleste;
+                    border-color: map-get($map: $colores, $key: $colorCeleste);
                     padding: 3%;
                     margin-top: 5%;
                 }
                 .alineacionBorrar{
-                    border-color: $colorCeleste;
+                    border-color: map-get($map: $colores, $key: $colorCeleste);
                     padding: 3%;
                 }
             }
@@ -343,8 +343,9 @@
         }
         /* Borde Imagenes */
         .borde{
-            border: solid 3px $colorCeleste;
-            margin-left: 3%;
+            border: solid 3px map-get($map: $colores, $key: $colorCeleste);
+            margin-left: 2%;
+            margin-right: 2%;
             margin-top: 1%;
             margin-bottom: 0.5%;
         }
@@ -385,7 +386,7 @@
                 .imagen{
                     margin-top: 0.2%;
                     margin-bottom: 1%;
-                    border: solid 3px $colorCeleste;
+                    border: solid 3px map-get($map: $colores, $key: $colorCeleste);
                 }
             }
         }
