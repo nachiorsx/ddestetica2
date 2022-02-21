@@ -214,6 +214,8 @@ footer section p {
   font-weight: 500;
   margin-top: 1%;
   margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 /* Texto Derecha */
@@ -245,6 +247,7 @@ header section .irAbajo {
 /* Borde Imagenes */
 .bordeImagen {
   border: solid 2px #5ed4f8;
+  margin-left: 2.5%;
 }
 
 /* Alineacion Buscador */
@@ -255,16 +258,20 @@ header section section .buscador {
 }
 
 /* Alineacion Botones Suscripcion */
+main section section {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 main section section .alineacionBotonSuscripcion {
   border-color: #5ed4f8;
-  margin-top: 1%;
-  padding: 0.5%;
+  margin-top: 5%;
+  padding: 1%;
 }
 main section section .alineacionBotonBorrar {
   border-color: #5ed4f8;
-  margin-left: 5%;
-  margin-top: 2%;
-  padding: 0.5%;
+  margin-left: 4%;
+  margin-top: 5%;
+  padding: 1%;
 }
 
 /* Alineacion Redes Sociales */

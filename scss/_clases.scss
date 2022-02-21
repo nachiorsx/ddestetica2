@@ -159,6 +159,8 @@ footer{
     @include fonts (23px, 500);
     margin-top: 1%;
     margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 /* Texto Derecha */
 .textoDerecha{
@@ -189,6 +191,7 @@ header{
 /* Borde Imagenes */
 .bordeImagen{
     border: solid 2px map-get($map: $colores, $key: $colorCeleste);
+    margin-left: 2.5%;
 }
 /* Alineacion Buscador */
 header{
@@ -206,16 +209,18 @@ header{
 main{
     section{
         section{
+            margin-top: 5%;
+            margin-bottom: 5%;
             .alineacionBotonSuscripcion{
                 border-color: map-get($map: $colores, $key: $colorCeleste);
-                margin-top: 1%;
-                padding: 0.5%
+                margin-top: 5%;
+                padding: 1%
             }
             .alineacionBotonBorrar{
                 border-color: map-get($map: $colores, $key: $colorCeleste);
-                margin-left: 5%;
-                margin-top: 2%;
-                padding: 0.5%;
+                margin-left: 4%;
+                margin-top: 5%;
+                padding: 1%;
             }
         }
     }
