@@ -14,13 +14,15 @@
     <!-- Description -->
     <meta name="description" content="Inicio - Belleza de manos y pies, Esmaltado semipermanente de manos y pies, Perfilado de Cejas, Lifting de Pestañas">
     <link rel="shorcut icon" href="assets/image/favicon.ico">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="./css/css/bootstrap.css">
     <!-- Estilo CSS Externo -->
     <link rel="stylesheet" href="./css/destino.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body class="gridAreas">
@@ -41,14 +43,32 @@
         </section>
     </header>
     <!-- Menu -->
-    <nav>
-        <section>
-            <span><a href="index.html">Inicio</a></span>
-            <span><a href="./pages/contacto.html">Contacto</a></span>
-            <span><a href="./pages/servicios.html">Servicios</a></span>
-            <span><a href="./pages/galeria.html">Galeria</a></span>
-            <span><a href="./pages/tarifas.html">Tarifas</a></span>
-        </section>
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-end" style="map-get ($map: $colores, $key: $colorNav)">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-5 fw-bold" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold" href="./pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold" href="./pages/galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold" href="./pages/tarifas.html">Tarifas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <!-- Contenido Principal -->
     <main class="mainIndex">
@@ -106,7 +126,7 @@
         <section class="sectionFooterTres">
             <!-- Redes Sociales -->
             <section>
-                <h5 class="alineacionRedes">Redes Sociales</h5>
+                <h3 class="alineacionRedes">Redes Sociales</h3>
                 <li class="alineacionFacebook"><a href="https://es-la.facebook.com/" target="blank">Facebook</a></li>
                 <li class="alineacionInstagram"><a href="https://www.instagram.com/?hl=es-la" target="blank">Instagram</a></li>
                 <li class="alineacionEmail"><a href="https://www.google.com/intl/es-419/gmail/about/" target="blank">Email</a></li>
@@ -117,6 +137,9 @@
         </section>    
     </footer>
     <!-- Fin pie de página -->
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <!-- Fin Cuerpo visible de la página nuevo -->
 </body>
 
